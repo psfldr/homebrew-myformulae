@@ -12,7 +12,7 @@ cask "trendmicro-virusbuster" do
   }
 
   name 'ウイルスバスター for Mac'
-  desc 'Trend Microのセキュリティ対策ソフト。体験版。インストール後「ホーム→使用期限: あと30日」をクリックし、シリアル番号を入力する。'
+  desc 'セキュリティ対策ソフト(体験版)。インストール時にパスワードが必要。「ホーム→使用期限: あと30日」をクリックしシリアル番号入力。'
   homepage 'https://helpcenter.trendmicro.com/ja-jp/article/tmka-17586'
 end
 
