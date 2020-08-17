@@ -8,6 +8,6 @@ cask "virusbuster" do
   name 'ウイルスバスター for Mac'
   desc 'インストーラのダウンロード。手動インストールが必要。'
   homepage 'http://www.trendmicro.co.jp'
-  installer manual: 'PackageSelector.app'
-  license :commercial
+  # installer manual: 'PackageSelector.app'
+  pkg 'PackageSelector.app/Contents/Resources/itisinstall.pkg'
 end
