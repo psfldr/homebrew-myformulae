@@ -5,14 +5,14 @@ cask "trendmicro-virusbuster" do
     url "https://files.trendmicro.com/products/iTIS/10.0/GM3/jp/Virus%20Buster%20for%20Mac-#{version}.dmg"
   end
 
-  pkg 'PackageSelector.app/Contents/Resources/itisinstall.pkg', allow_untrusted: true
+  pkg 'PackageSelector.app/Contents/Resources/itisinstall.pkg'
   uninstall script: {
     executable: '/Applications/TrendMicro.localized/UninstallerLauncher.app/Contents/MacOS/UninstallerLauncher',
     sudo: false
   }
 
   name 'ウイルスバスター for Mac'
-  desc 'Trend Microのセキュリティ対策ソフト。体験版のインストール。正式に使用するにはインストール後、「ホーム→使用期限: あと30日」をクリックし、シリアル番号を入力する。'
+  desc 'Trend Microのセキュリティ対策ソフト。体験版。インストール後「ホーム→使用期限: あと30日」をクリックし、シリアル番号を入力する。'
   homepage 'https://helpcenter.trendmicro.com/ja-jp/article/tmka-17586'
 end
 
